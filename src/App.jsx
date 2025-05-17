@@ -1,5 +1,11 @@
+import Home from './Components/Home'
+
 function App() {
-  return <h1 className="text-2xl">Hello world</h1>
+  return (
+    <>
+      <Home />
+    </>
+  )
 }
 
 export default App
