@@ -55,7 +55,7 @@ export default function Header() {
       <ul
         className={`fixed top-0 right-0 ${
           sidebarOpen ? "w-0" : "w-[250px]"
-        } transition-all ease-in duration-500 h-[100vh] z-[999] flex flex-col justify-start items-start gap-5 bg-black/15 shadow-md backdrop-blur-[5px] overflow-x-hidden`}
+        } transition-all ease-in duration-500 h-[100vh] z-[999] flex flex-col justify-start items-start gap-10 bg-black/15 shadow-md backdrop-blur-[5px] overflow-x-hidden`}
       >
         {/* <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--> */}
         <svg
