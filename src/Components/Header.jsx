@@ -14,11 +14,9 @@ export default function Header() {
   return (
     <nav className="shadow-sm w-full p-1  sm:p-3">
       {/* navbar */}
-      <ul className="flex sm:justify-around justify-start items-center p-5 ml-10 mr-10 sm:gap-0 gap-2">
+      <ul className="flex sm:justify-around justify-start items-center p-5 sm:ml-10 sm:mr-10 ml-2 mr-2 sm:gap-0 gap-2">
         <li className="sm:ml-1 mr-auto text-2xl">
-          <span className="text-3xl">
-            Noah
-          </span>
+          <span className="text-3xl">Noah</span>
         </li>
         <li className="sm:block hidden px-[25px] py-0 text-[14px]">
           <a className="flex items-center gap-2" href="#">
@@ -69,7 +67,7 @@ export default function Header() {
           <path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
         </svg>
         <li className="px-[30px] py-0 text-[14px]">
-          <a className="flex items-center gap-3"href="#">
+          <a className="flex items-center gap-3" href="#">
             <HomeIcon />
             Home
           </a>
