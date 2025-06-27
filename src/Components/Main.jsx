@@ -1,6 +1,6 @@
 export default function Main() {
   return (
-    <div className="flex flex-col justify-center items-center gap-10 mt-20 md:flex-row md:justify-around md:mx-15">
+    <div className="flex flex-col justify-center items-center gap-10 mt-12 md:flex-row md:justify-around md:mx-10">
       <div>
         <h1 className="text-[48px] text-center md:text-left md:text-[56px]">
           Welcome to
