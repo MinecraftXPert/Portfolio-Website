@@ -55,7 +55,7 @@ export default function Header() {
       <ul
         className={`fixed top-0 right-0 ${
           sidebarOpen ? "w-0" : "w-[250px]"
-        } transition-all ease-in duration-500 h-[100vh] z-[999] flex flex-col justify-start items-start gap-10 bg-black/15 shadow-md backdrop-blur-[5px] overflow-x-hidden`}
+        } transition-all ease-in duration-500 h-[100vh] z-[999] flex flex-col justify-start items-start gap-10 bg-black/20 shadow-md backdrop-blur-[5px] overflow-x-hidden`}
       >
         {/* <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--> */}
         <svg
@@ -67,25 +67,25 @@ export default function Header() {
           <path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
         </svg>
         <li className="px-[30px] py-0 text-[14px]">
-          <a className="flex items-center gap-3" href="#">
+          <a className="flex items-center gap-3 font-bold" href="#">
             <HomeIcon />
             Home
           </a>
         </li>
         <li className="px-[30px] py-0 text-[14px]">
-          <a className="flex items-center gap-3" href="#">
+          <a className="flex items-center gap-3 font-bold" href="#">
             <AboutIcon />
             About
           </a>
         </li>
         <li className="px-[30px] py-0 text-[14px]">
-          <a className="flex items-center gap-3" href="#">
+          <a className="flex items-center gap-3 font-bold" href="#">
             <ProjectsIcon />
             Projects
           </a>
         </li>
         <li className="px-[30px] py-0 text-[14px]">
-          <a className="flex items-center gap-3" href="#">
+          <a className="flex items-center gap-3 font-bold" href="#">
             <ContactIcon />
             Contact
           </a>
