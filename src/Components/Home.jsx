@@ -1,11 +1,13 @@
 import Header from "./Header"
-import Main from "./Main"
+import Hero from "./Hero"
+import MainHome from "./MainHome"
 
 export default function Home() {
     return (
         <>
             <Header />
-            <Main />
+            <Hero />
+            <MainHome />
         </>
     )
 }
