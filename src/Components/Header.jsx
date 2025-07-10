@@ -12,9 +12,9 @@ export default function Header() {
   }
 
   return (
-    <nav className="shadow-md w-full p-1  sm:p-3">
+    <nav className="shadow-md w-full p-1 bg-[#FFFDF7] sticky top-0 sm:p-3 z-[999]">
       {/* navbar */}
-      <ul className="flex sm:justify-around justify-start items-center p-5 sm:ml-10 sm:mr-10 ml-2 mr-2 sm:gap-0 gap-2">
+      <ul className="flex sm:justify-around justify-start items-center p-5 sm:sticky sm:ml-10 sm:mr-10 ml-2 mr-2 sm:gap-0 gap-2">
         <li className="sm:ml-1 mr-auto text-2xl">
           <span className="text-3xl">Noah</span>
         </li>

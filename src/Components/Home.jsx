@@ -1,13 +1,15 @@
 import Header from "./Header"
 import Hero from "./Hero"
-import MainHome from "./MainHome"
+import Skills from "./SkillsPage"
+import Projects from "./Projects";
 
 export default function Home() {
     return (
         <>
             <Header />
             <Hero />
-            <MainHome />
+            <Skills />
+            <Projects />
         </>
     )
 }

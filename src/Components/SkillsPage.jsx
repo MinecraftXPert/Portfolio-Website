@@ -1,10 +1,10 @@
 import skillData from "../skills";
-import Skills from "./Skill";
+import Skill from "./Skill";
 
 export default function MainHome() {
   const skillsList = skillData.map((group) => {
     return group.skills.map(skill => {
-        return <Skills key={skill.id} name={skill.name} icon={skill.icon}/>
+        return <Skill key={skill.id} name={skill.name} icon={skill.icon}/>
     })
   });
 
@@ -19,15 +19,15 @@ export default function MainHome() {
       </div>
       <div className="max-w-[1200px] m-auto flex flex-col md:flex-row md:justify-center md:items-start items-center gap-[80px]">
         <div className="flex flex-col">
-          <h2 className="text-2xl font-bold mb-5">Frontend</h2>
+          <h2 className="text-2xl font-bold mb-4">Frontend</h2>
           {skillsList[0]}
         </div>
         <div className="flex flex-col">
-          <h2 className="text-2xl font-bold mb-5">Backend</h2>
+          <h2 className="text-2xl font-bold mb-4">Backend</h2>
           {skillsList[1]}
         </div>
         <div className="flex flex-col">
-          <h2 className="text-2xl font-bold mb-5">Other Tools</h2>
+          <h2 className="text-2xl font-bold mb-4">Other Tools</h2>
           {skillsList[2]}
         </div>
       </div>
