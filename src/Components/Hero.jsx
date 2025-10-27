@@ -14,9 +14,9 @@ export default function Hero() {
           <br />
           to become a full-stack developer.
         </h3>
-        <button className="bg-[#1a73e8] hover:bg-[#1a4ee8] text-white p-3 rounded-xl cursor-pointer transition-colors">
+        <a href="#projects" className="bg-[#1a73e8] hover:bg-[#1a4ee8] text-white p-3 rounded-xl cursor-pointer transition-colors">
           Explore Projects
-        </button>
+        </a>
       </div>
       <div>
         <img className="w-[400px]" src="imgs/coding.png" alt="" />
