@@ -7,7 +7,7 @@ export default function Skills() {
   });
 
   return (
-    <section>
+    <section id="projects">
       <div className="flex flex-col items-center mt-[4rem]">
         <h1 className="text-[40px]">Projects</h1>
         <p className="text-center mb-[3rem]">Here are a few of my projects</p>

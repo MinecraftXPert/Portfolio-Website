@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section>
+    <section id="about">
       <div className="flex flex-col items-center mt-[12rem]">
         <h1 className="text-[40px]">About me</h1>
       </div>

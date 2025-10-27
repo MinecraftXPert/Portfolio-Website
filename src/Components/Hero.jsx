@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <div className="flex flex-col justify-center items-center gap-10 mt-20 md:flex-row md:justify-around md:m-[4rem]">
       <div className="flex flex-col items-center md:items-start">
-        <h1 className="text-[48px] text-center md:text-left md:text-[56px]">
+        <h1 id="home" className="text-[48px] text-center md:text-left md:text-[56px]">
           Welcome to
           <br />
           my portfolio
