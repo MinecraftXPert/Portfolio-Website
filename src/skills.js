@@ -15,6 +15,7 @@ const skillsData = [
       { name: "NodeJS", icon: "nodejs.svg" },
       { name: "Python", icon: "python.svg" },
       { name: "Java", icon: "java.svg" },
+      { name: "C", icon: "c.svg"},
     ],
   },
   {
@@ -22,6 +23,7 @@ const skillsData = [
     skills: [
       { name: "Git", icon: "git.svg" },
       { name: "Github", icon: "github.svg" },
+      { name: "VS Code", icon: "vscode.svg"},
     ],
   },
 ];
