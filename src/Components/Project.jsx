@@ -1,6 +1,6 @@
 export default function Project({ project }) {
   return (
-    <div className="flex flex-col items-center md:items-start w-[400px] p-5 rounded-2xl shadow-lg h-full relative mb-5">
+    <div className="flex flex-col items-center md:items-start w-[400px] p-5 rounded-2xl shadow-lg h-full relative mb-5 duration-200 ease-in hover:translate-y-[-3px] hover:shadow-gray-400">
       <img
         className="rounded-xl mb-[1.5rem] h-[150px] w-full bg-center"
         src={project.img}

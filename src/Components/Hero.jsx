@@ -1,8 +1,18 @@
+import { motion } from "motion/react";
+
 export default function Hero() {
   return (
-    <div className="flex flex-col justify-center items-center gap-10 mt-20 md:flex-row md:justify-around md:m-[4rem]">
+    <motion.div
+      className="flex flex-col justify-center items-center gap-10 mt-20 md:flex-row md:justify-around md:m-[4rem]"
+      initial={{ opacity: 0, transform: 'translate(0, -50px)'}}
+      whileInView={{ opacity: 1, transform: 'translate(0, 0)'}}
+      transition={{ duration: 1.0 }}
+    >
       <div className="flex flex-col items-center md:items-start">
-        <h1 id="home" className="text-[48px] text-center md:text-left md:text-[56px]">
+        <h1
+          id="home"
+          className="text-[48px] text-center md:text-left md:text-[56px]"
+        >
           Welcome to
           <br />
           my portfolio
@@ -14,14 +24,17 @@ export default function Hero() {
           <br />
           to become a full-stack developer.
         </h3>
-        <a href="#projects" className="bg-[#1a73e8] hover:bg-[#1a4ee8] text-white p-3 rounded-xl cursor-pointer transition-colors">
+        <a
+          href="#projects"
+          className="bg-[#1a73e8] hover:bg-[#1a4ee8] text-white p-3 rounded-xl cursor-pointer transition-colors"
+        >
           Explore Projects
         </a>
       </div>
       <div>
         <img className="w-[400px]" src="imgs/coding.png" alt="" />
       </div>
-    </div>
+    </motion.div>
   );
 }
 
